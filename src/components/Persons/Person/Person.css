@@ -1,0 +1,14 @@
+.Person {
+    text-align: center;
+    width: 60%;
+    padding: 20px 40px;
+    border: 1px solid #000;
+    background-color: grey;
+    margin: 2px;
+}
+
+@media (min-width: 700px) {
+    .Person {
+        background-color: aqua;
+    }
+}
